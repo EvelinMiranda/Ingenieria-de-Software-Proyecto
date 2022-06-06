@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Tareas Programadas</ion-title>
+
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card >
+    <ion-toolbar>
+    
+    <ion-button class="boton1"color="secondary" (click)="medico()" > Revision Medica</ion-button>
+      <br>
+   <ion-button color="secondary " (click)="vacuna()">Vacunacion</ion-button>
+      <br>
+      
+      <ion-button color="secondary" (click)="reproduccion()">Reproduccion</ion-button>
+    
+    </ion-toolbar>
+  </ion-card>
+  <ion-list>
+    <ion-list-header>Listado de pendientes</ion-list-header>
+    
+    
+   
+    
+    <ion-item>
+      <ion-avatar slot="end">
+        
+      </ion-avatar>
+      <ion-label>
+        <h3>Revicion medica</h3>
+        <p>Revicion de vaca Paloma</p>
+        <p>22/05/2022</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="end">
+        
+      </ion-avatar>
+      <ion-label>
+        <h3>Reproducción</h3>
+        <p>Realizar inseminación vaca Pimienta</p>
+        <p>28/05/2022</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="end">
+        
+      </ion-avatar>
+      <ion-label>
+        <h3>Revición medica</h3>
+        <p>Realizar revicion vaca Estrella</p>
+        <p>28/05/2022</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <br>
+ 
+</ion-content>  

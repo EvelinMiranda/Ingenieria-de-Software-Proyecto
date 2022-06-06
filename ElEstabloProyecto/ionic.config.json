@@ -1,0 +1,7 @@
+{
+  "name": "ElEstabloProyecto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Asignar Tareas</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!-- List of Sliding Items -->
+
+  <ion-card>
+    <ion-list>
+     
+      <ion-item>
+        <ion-label>Empleado</ion-label>
+        <ion-select >
+          <ion-select-option value="operario">Paula Sanchez</ion-select-option>
+          <ion-select-option value="veterinario">Camilo Arroyo</ion-select-option>
+          <ion-select-option value="veterinario">Cristina Ortiz</ion-select-option>
+          <ion-select-option value="veterinario">José Parra</ion-select-option>
+          
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Tarea</ion-label>
+        <ion-select>
+          <ion-select-option value="Revision Medica">Revision Medica</ion-select-option>
+          <ion-select-option value="Vacunacion">vacunacion</ion-select-option>
+          <ion-select-option value="Reproduccion">Reproduccion</ion-select-option>
+          <ion-select-option value="Produccion">Produccion</ion-select-option>
+          <ion-select-option value="Mantenimiento">Mantenimiento</ion-select-option>
+          <ion-select-option value="Limpieza">limpieza</ion-select-option>
+          
+        </ion-select>
+        
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Descripción</ion-label>
+        <ion-textarea 	auto-grow="true"></ion-textarea>
+      </ion-item>
+    </ion-list>
+    <ion-button color="secondary"expand="block">Asignar Tareas</ion-button>
+    <ion-button color="secondary"expand="block" (click)="ver()">Ver Tareas Asignadas</ion-button>
+  </ion-card>
+  
+  <br>
+
+  
+  
+  
+  
+  
+  
+
+
+</ion-content>
+

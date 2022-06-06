@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>produccion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  
+  <ion-button color="secondary">
+    Finlizar Producción
+  </ion-button>
+ <ion-card>
+  <ion-label>Seleccionar Vaca</ion-label>
+  <ion-select >
+    <ion-select-option value="bacon">Estrella</ion-select-option>
+    <ion-select-option value="olives">Pinpinela </ion-select-option>
+    <ion-select-option value="xcheese">Paloma</ion-select-option>
+    <ion-select-option value="peppers">Sara </ion-select-option>
+    <ion-select-option value="mushrooms">Margarita</ion-select-option>
+    <ion-select-option value="onions">Pimienta</ion-select-option>
+   
+  </ion-select>
+  <ion-item>
+    <ion-label position="floating">Litros de leche producidos:</ion-label>
+    <ion-input ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Kilogramos de concentrado consumidos:</ion-label>
+    <ion-input ></ion-input>
+  </ion-item>
+  <br>
+  <br>
+  <ion-button color="secondary">
+    Registrar
+  </ion-button>
+  <ion-button color="secondary">
+    Editar
+  </ion-button>
+  <ion-button color="secondary">
+    Eliminar
+  </ion-button >
+ </ion-card>
+
+ <ion-card>
+  <ion-list>
+    <ion-list-header>Vacas ordeñadas</ion-list-header>
+    
+    
+   
+    
+    <ion-item>
+      <ion-avatar slot="end">
+        
+      </ion-avatar>
+      <ion-label>
+        <h3>Nombre: Paloma</h3>
+        <p>Produccion: 5 Litros</p>
+        <p>Consumo de concentrado: 3 Kilogramos</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="end">
+        
+      </ion-avatar>
+      <ion-label>
+        <h3>Nombre: Almendra</h3>
+        <p>Produccion: 7 Litros</p>
+        <p>Consumo de concentrado: 3.7 Kilogramos</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+
+</ion-card> 
+</ion-content>

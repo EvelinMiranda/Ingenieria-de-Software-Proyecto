@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Informes</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-list>
+      <ion-list-header>
+        <ion-label>
+          Filtrar
+        </ion-label>
+      </ion-list-header>
+    
+      <ion-item>
+        <ion-label>Graficas</ion-label>
+        <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+          <ion-select-option value="bacon">Producción</ion-select-option>
+          <ion-select-option value="olives">Consumo de concentrado</ion-select-option>
+          
+        </ion-select>
+      </ion-item>
+    
+   
+    </ion-list>
+    <ion-list>
+      
+    
+      <ion-item>
+        <ion-label>Vaca</ion-label>
+        <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+          <ion-select-option value="bacon">Estrella</ion-select-option>
+          <ion-select-option value="olives">Pinpinela </ion-select-option>
+          <ion-select-option value="xcheese">Paloma</ion-select-option>
+          <ion-select-option value="peppers">Sara </ion-select-option>
+          <ion-select-option value="mushrooms">Margarita</ion-select-option>
+          <ion-select-option value="onions">Pimienta</ion-select-option>
+          
+        </ion-select>
+      </ion-item>
+      <ion-card>
+        <canvas id="chart-principal" width="250" height="250"></canvas>
+        
+
+
+
+      </ion-card>
+      
+    
+   
+    </ion-list>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,47 @@
+<ion-header>
+  
+  <ion-toolbar >
+
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+
+  <ion-card >
+    <ion-card-header>
+      <div>
+        <img src=" assets/vaca.png" class="img-responsive " id="img1">
+      </div>
+      <p class="ion-text-center">
+       
+        <ion-card-title>El Establo</ion-card-title>
+      </p>
+    </ion-card-header>
+    <ion-card-content>
+      <form >
+        <ion-item>
+          <ion-label position="floating">e-mail</ion-label>
+          <ion-input ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input type="password" ></ion-input>
+        </ion-item>
+        <br>
+        <p class="ion-text-center"> 
+          <a class="navbar-brand" (click)="recordarContrasena()"> Recordar Contraseña </a> 
+        </p>
+        <br>
+        <br>
+        <ion-button color="secondary" type="submit" expand="block" (click)="dashboard()">Ingresar</ion-button>
+        <br>
+        <ion-label >No Estas Registrado?</ion-label>
+        <a class="navbar-brand"  (click)="registrarse()" > Registrarte</a> 
+    </form>
+    </ion-card-content>
+  </ion-card>
+ 
+
+</ion-content>

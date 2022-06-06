@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Vacunación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <form>
+      <ion-item> 
+      <ion-label>Seleccionar animales</ion-label>
+        
+          <ion-select >
+            <ion-select-option value="Almendra">Almendra</ion-select-option>
+            <ion-select-option value="Copito">Copito</ion-select-option>
+            <ion-select-option value="Pina">Pina</ion-select-option>     
+          </ion-select>
+        </ion-item> 
+      <ion-item>
+        <ion-label position="floating">Caso</ion-label>
+        <ion-input ></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label>Dosis</ion-label>
+        
+          <ion-select >
+            <ion-select-option value="1">1</ion-select-option>
+            <ion-select-option value="2">2</ion-select-option>
+          </ion-select>
+        </ion-item> 
+      <ion-item>
+        <ion-label position="floating">Lote</ion-label>
+        <ion-input ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Descripción</ion-label>
+        <ion-textarea 	auto-grow="true"></ion-textarea>
+      </ion-item>
+      
+      <br>
+        <ion-button type="submit"  (click)="dashboard()" color="secondary">Vacunar</ion-button>
+      <br>
+    </form>
+  </ion-card>
+</ion-content>

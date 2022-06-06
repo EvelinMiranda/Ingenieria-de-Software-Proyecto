@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="first"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>pesonal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <form >
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Seleccionar rol</ion-label>
+        <ion-select >
+          <ion-select-option value="bacon">Veterinario</ion-select-option>
+          <ion-select-option value="olives">Operario </ion-select-option>
+          
+         
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">C.C</ion-label>
+        <ion-input ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Confirmar C.C</ion-label>
+        <ion-input  ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Confirmar contraseña</ion-label>
+        <ion-input type="password" ></ion-input>
+      </ion-item>
+      
+      
+  
+     
+      <br>
+      <ion-button type="submit"   color="secondary">Registrar</ion-button>
+      <ion-button type="submit"   color="secondary">Buscar</ion-button>
+      <ion-button type="submit"   color="secondary">Modificar</ion-button>
+      <ion-button type="submit"   color="secondary">Eliminar</ion-button>
+      <br>
+     
+  </form>
+
+  </ion-card>
+  <ion-button (click)="verPersonal() " color="secondary" expand="block">Ver personal</ion-button >
+  
+  <br>
+  
+
+</ion-content>
